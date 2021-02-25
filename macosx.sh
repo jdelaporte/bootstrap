@@ -13,3 +13,6 @@ brew install vagrant
 brew install vagrant-manager
 
 brew install visual-studio-code
+brew install neovim
+
+# After installing neovim, add /usr/local/bin/nvim to mac OSX path in VSCode.
