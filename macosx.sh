@@ -11,3 +11,5 @@
 brew install virtualbox
 brew install vagrant
 brew install vagrant-manager
+
+brew install visual-studio-code
