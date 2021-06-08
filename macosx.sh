@@ -1,9 +1,10 @@
 
 #!/bin/bash
 
-#Install virtualbox
+#Install Brew (May need to run this by hand before git commands work)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+#Install virtualbox
 # virtualbox requires a kernel extension to work.
 # If the installation fails, retry after you enable it in:
 # System Preferences → Security & Privacy → General
