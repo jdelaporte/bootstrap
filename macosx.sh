@@ -46,3 +46,9 @@ brew install telnet
 # For HashiCorp Vault
 brew tap hashicorp/tap
 brew install hashicorp/tap/vault
+
+#For HashiCorp Terraform
+brew install terraform
+
+# For AWS CLI
+brew install awscli
