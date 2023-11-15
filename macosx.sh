@@ -38,3 +38,7 @@ brew upgrade podman
 
 brew install powershell
 brew install telnet
+
+# For HashiCorp Vault
+brew tap hashicorp/tap
+brew install hashicorp/tap/vault
