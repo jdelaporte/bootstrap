@@ -7,6 +7,10 @@
 #Install Brew (May need to run this by hand before git commands work)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# Run these two commands in your terminal to add Homebrew to your PATH:
+    (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/joani.delaporte/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+
 #Install virtualbox
 # virtualbox requires a kernel extension to work.
 # If the installation fails, retry after you enable it in:
