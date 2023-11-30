@@ -52,3 +52,6 @@ brew install terraform
 
 # For AWS CLI
 brew install awscli
+
+# For OpenShift CLI
+brew install openshift-cli
