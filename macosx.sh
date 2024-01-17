@@ -47,6 +47,11 @@ brew install telnet
 brew tap hashicorp/tap
 brew install hashicorp/tap/vault
 
+# For Vault VSO Demos
+brew install derailed/k9s/k9s
+brew install kubectl
+
+
 #For HashiCorp Terraform
 brew install terraform
 
@@ -55,3 +60,15 @@ brew install awscli
 
 # For OpenShift CLI
 brew install openshift-cli
+
+# For Helm
+brew install helm
+
+# For jq
+brew install jq
+
+# For boundary
+brew tap hashicorp/security https://github.com/hashicorp/homebrew-security
+      brew install hashicorp/security/doormat-cli
+      brew update 
+      brew upgrade doormat-cli
